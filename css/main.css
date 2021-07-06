@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%
+}
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #a5a5b1;
+    display: grid;
+    place-items: center;
+    font-family: 'copperplate'
+}
+
+.card {
+    background-color: lightcyan;
+    border-radius: 50px;
+    color: #6f707d;
+}
+
+#heading {
+    text-align: center;
+    font-size: 55px;
+    color: #2b304d
+}
+
+.temp {
+    place-items: center
+}
+
+.temp-details>p>span,
+.grey {
+    color: #a3acc1;
+    font-size: 15px
+}
+
+.fa {
+    color: #a5a5b1
+}
+
+*:focus {
+    outline: none
+}
+
+.btn {
+    background-color: #2b304d;
+    color: lightcyan;
+}
+
+.btn:hover{
+    background-color:#6f707d;
+}
+
+.w1{
+    border-radius: 25px;
+}
