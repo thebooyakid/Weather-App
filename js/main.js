@@ -1,7 +1,7 @@
 function getData(){
     let city = document.querySelector('#city').value;
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=5db7ec94bcfdaca1eac4f2b7a112cd7b`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=ac6d4d801330b08597ceb683818b8fbe`)
     .then(response => response.json())
     .then(weatherdata => {
         console.log(weatherdata)
